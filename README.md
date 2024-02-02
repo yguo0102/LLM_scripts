@@ -14,7 +14,7 @@ A JSON file called "{prompt_file}.json" will also be created to keep track of pr
 # Running the script
 The script should be executable by running `python run_predict.py` in the terminal/commandline with a Python3 environment.
 To adapt the script to your task, you need to follow the steps below.
-1. Update the Azure OpenAI API information with your own API
+## 1. Update the Azure OpenAI API information with your own API
 ```
 # API info
 model_id = 'gpt-35'
@@ -32,7 +32,7 @@ Keep in mind that the code grabs the API key from the place where you're running
 If you prefer, you can directly insert the key into the code. It's easy, but be cautious not to accidentally upload your code with the key to Github.
 
 
-2. Update the file path of the data and prompt.
+## 2. Update the file path of the data and prompt.
 You may also want to update these varibles:
 ```
 col_id_name = 'ID'
