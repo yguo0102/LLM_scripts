@@ -2,9 +2,10 @@
 This repository is for sharing the codes for LLMs.
 
 # Files
-* `run_predict.py`: the script which to prompt the LLM via the Azure OpenAI API.
+* `run_predict.py`: the script to prompt the LLM via the Azure OpenAI API.
 * `prompt/p1.txt`: an example prompt
 * `data/abstract_sample.csv`: an example data set
+* `price_estimator.py`: a script to compute the cost of Azure API. Run `python price_estimator.py`. 
 The example data and prompt was to prompt the LLM to extract the mean and deviation of blood pressure values based on biomedical sex.
 The output wil be stored in a csv file named "cases_with_responses_{model_id}_{timestamp}".
 
